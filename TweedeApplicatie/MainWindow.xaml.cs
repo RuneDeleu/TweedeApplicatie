@@ -26,9 +26,11 @@ namespace TweedeApplicatie
         }
 
 
+
         private void btnKlik_Click(object sender, RoutedEventArgs e)
         {
             lblOutput.Content = "Hello World";
         }
+
     }
 }
