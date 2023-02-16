@@ -25,5 +25,11 @@ namespace TweedeApplicatie
             InitializeComponent();
         }
 
+        int iTel = 0;
+
+        private void btnTeller_Click(object sender, RoutedEventArgs e)
+        {
+            lblTeller.Content = iTel++;
+        }
     }
 }
